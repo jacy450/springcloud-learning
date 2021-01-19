@@ -12,6 +12,7 @@
         <module>eureka-secuity-server</module>
         <module>ribbon-service</module>
         <module>user-service</module>
+        <module>hystrix-service</module>
     </modules>
     <name>springcloud-learning</name>
 </project>
