@@ -29,7 +29,7 @@ public class UserService {
     @Autowired
     private RestTemplate restTemplate;
 
-    @Value("${service-url.user-service")
+    @Value("${service-url.user-service}")
     private String userServiceUrl;
 
     @HystrixCommand(fallbackMethod = "getDefaultUser")

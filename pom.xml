@@ -9,10 +9,11 @@
     <modules>
         <module>eureka-server</module>
         <module>eureka-client</module>
-        <module>eureka-secuity-server</module>
+        <module>eureka-security-server</module>
         <module>ribbon-service</module>
         <module>user-service</module>
         <module>hystrix-service</module>
+        <module>hystrix-dashboard</module>
     </modules>
     <name>springcloud-learning</name>
 </project>
